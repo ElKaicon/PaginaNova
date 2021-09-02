@@ -1,0 +1,60 @@
+<html>
+    <head>
+<title>Organizador de Cartas</title>
+<link rel="stylesheet" href="index_novo.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="h1-2">Organizador de Cartas do Kaicon</h1>
+            </div>
+        </header>
+        <main>
+            <section class="container">
+                <h2>Minhas Cartas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Cor</th>
+                            <th>Valor de mana</th>
+                            <th>Tipo</th>
+                            <th>Força/Resistência</th>
+                            <th>Coleção</th>
+                            <th>Quantidade</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-cartas">
+                        <tr class="cartas" id="primeira-carta">
+                            <td class="info-nome">Teferi, Mage of Zhalfir</td>
+                            <td class="info-cor">Blue</td>
+                            <td class="info-VDM">6</td>
+                            <td class="info-tipo">Criatura Lendária - Humano Mago</td>
+                            <td class="info-FR">3/4</td>
+                            <td class="info-Coleção">Innistrad</td>
+                            <td class="info-Quantidade">3</td>
+                    </tbody>
+                </table>
+                <h2>Incluir Nova Carta</h2>
+                <form id="information">
+                    <label for="nome1">Nome:</label><br>
+                    <input type="text" id="nome1" placeholder="Teferi, Mage of Zhalfir"><br>
+                    <label for="cor1">Cor:</label><br>
+                    <input type="text" id="cor1" placeholder="Blue"><br>
+                    <label for="VDM1">Valor de Mana:</label><br>
+                    <input type="text" id="VDM1" placeholder="6"><br>
+                    <label for="tipo1">Tipo:</label><br>
+                    <input type="text" id="tipo1" placeholder="Criatura Lendária - Humano Mago"><br>
+                    <label for="FR1">Força/Resistência:</label><br>
+                    <input type="text" id="FR1" placeholder="3/4"><br>
+                    <label for="coleção1">Coleção:</label><br>
+                    <input type="text" id="coleção1" placeholder="Innistrad"><br>
+                    <label for="quantidade1">Quantidade:</label><br>
+                    <input type="text" id="quantidade1" placeholder="3"><br><br>
+                    <button id="botaozao">Incluir</button>
+                  </form>
+            </section>
+        </main>
+        <script src="Formatação.js"></script>
+    </body>
+</html>
